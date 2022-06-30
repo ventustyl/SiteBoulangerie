@@ -1,0 +1,375 @@
+* {
+    scroll-behavior: smooth;
+}
+
+
+h1 {
+    margin-top: -13vh;
+}
+
+.top-page {
+    background-position: center;
+    background-size: 100%;
+}
+
+.carre {
+    margin: 25px auto;
+    width: 200px;
+    height: 200px;
+    border: #C89446 1px solid;
+}
+.list.produit {
+height: 235px;
+}
+.list-produit li {
+    margin-top: 25px;
+    text-align: center;
+}
+
+.simple,
+.bloc-produits, .bloc-blog {
+    width: 92vw;
+    margin: 3vh auto;
+}
+
+.image-produit,
+.image-nous,
+.image {
+    margin-top: 3vh;
+    height: 30vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.image-pack {
+    height: 20vh;
+    width: 96vw;
+    margin-top: 10vh;
+    background-size: 100%;
+    margin: auto;
+}
+
+.colonne-bloc,
+.bloc-nous {
+    width: 92vw;
+    margin: 0 auto;
+}
+
+h2 {
+    margin-bottom: 3vh;
+}
+
+.formulaire {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    width: 90vw;
+
+}
+
+label,
+input {
+    border: #C89446 1px solid;
+    background-color: #F3F3F3;
+    margin: 3vh;
+    width: 90%;
+}
+
+textarea {
+    float: right;
+    background-color: #F3F3F3;
+    margin-left: 47px;
+    width: 83vw;
+    height: 150px;
+    margin: auto;
+}
+
+.envoyer {
+    margin: 2vh auto;
+    width: 90vw;
+    text-align: center;
+
+}
+.text-pack {
+    width: 75vw;
+    margin: auto;
+}
+
+
+.pack {
+    padding-top: 20vh;
+    background-image: url(../img/pack.jpg);
+}
+
+.sommes {
+    padding-top: 20vh;
+    background-image: url(../img/qui-sommes-nous.jpg);
+}
+
+.produits {
+    padding-top: 20vh;
+    background-image: url(../img/produits.jpg);
+}
+
+.contact {
+    padding-top: 20vh;
+    background-image: url(../img/contact.jpg);
+}
+
+.mon-blog {
+    padding-top: 20vh;
+    background-image: url(../img/blog.jpg);
+}
+
+.pain-chocolat {
+    background-image: url(../img/pain_chocolat.png);
+}
+
+.tresse {
+    background-image: url(../img/tresse.jpg);
+}
+
+.palmier {
+    background-image: url(../img/palmier.jpg);
+}
+
+
+.entreprise {
+    background-image: url(../img/dejeuner\ entreprise.jpg);
+    margin: 5vh auto;
+    background-size: cover;
+    width: 100vw;
+}
+
+.famille {
+    background-image: url(../img/dejeuner\ famille.jpg);
+    margin: 5vh auto;
+    background-size: cover;
+    width: 100vw;
+}
+
+.an {
+    background-image: url(../img/20-ans.png);
+    height: 30vh;
+    margin: 0vh auto;
+}
+
+
+.team-cafe {
+    background-image: url(../img/team-cafe.jpg);
+    margin-bottom: 5vh;
+}
+
+.cafe-sans {
+    background-image: url(../img/cafe-sans.jpg);
+    margin-bottom: 5vh;
+}
+
+.concours {
+    background-image: url(../img/concours.jpg);
+    margin-bottom: 5vh;
+}
+
+
+
+
+
+/* ---------------------------------Media querie--------------------------------- */
+@media screen and (min-width:600px) {
+    .bloc-2 {
+        width: 92vw;
+        margin: auto;
+    }
+    textarea {
+        float: none;        
+        width: 81vw;
+        height: 150px;
+        margin-left: 27px;
+    }
+}
+
+@media screen and (min-width:974px) {
+
+    .image-produit {
+        width: 200px;
+        height: 200px;
+        margin: 0 20px;
+    }
+
+    .carre {
+        width: 200px;
+        height: 200px;
+    }
+
+    .simple {
+        width: 70%;
+    }
+
+    .bloc-produits {
+        width: 75vw;
+        display: flex;
+        justify-content: center;
+        margin: auto;
+    }
+
+    .responsive {
+        width: 70%;
+        margin-left: 3vw;
+    }
+
+    .bloc-2 {
+        display: flex;
+    }
+
+    .deca {
+        width: 70%;
+    }
+    textarea {
+        float: none;        
+        width: 81vw;
+        height: 150px;
+        margin-left: 27px;
+    }
+}
+
+
+@media screen and (min-width:1024px) {
+
+    .produits,
+    .pack,
+    .sommes,
+    .mon-blog, .contact {
+        height: 40vh;
+        padding-top: 38vh;
+        background-size: 100%;
+    }
+
+    h1 {
+        margin-top: -23vh;
+    }
+
+    .bloc-produits:nth-child(2) {
+        margin-right: 50px;
+    }
+    .colonne-bloc,
+    .bloc-nous {
+        width: 75vw;
+        margin: 0 auto;
+    }
+    .image-produit {
+        width: 250px;
+        height: 250px;
+    }
+.text-p {
+    columns: 2;
+}
+.map {
+    width: 75vw;
+}
+}
+
+@media screen and (min-width:1366px) {
+
+    .bloc-produits {
+        width: 90vw;
+        display: flex;
+        justify-content: center;
+        margin: auto;
+    }
+
+    .image-pack {
+        height: 40vh;
+        width: 75vw;
+        margin-top: 8vh;
+        background-position: center;
+    }
+
+    .text-pack {
+        width: 75vw;
+        margin: auto;
+    }
+
+    .text-pack:nth-child(2) {
+        margin-bottom: 6vh;
+    }
+
+    .image-nous {
+        height: 30vh;
+    }
+
+    .reprise,
+    .bloc-nous {
+        width: 75vw;
+    }
+
+
+    .image-produit {
+        width: 40%;
+        height: 250px;
+        margin-top: 2vh;
+    }
+
+    .formulaire {
+        width: 90vw;
+        margin: auto;
+        height: 500px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .text-p {
+        columns: 3;
+    }
+    .form {
+        width: 95%;
+      
+        margin-right: 5vw;
+    }
+
+    .form-text {
+        width: 60%;
+    }
+
+    .formulaire {
+        display: flex;
+        align-items: center;
+        width: 75vw;
+    }
+
+    .form {
+        width: 40vw;
+    }
+
+    textarea {
+        float: none;        
+        width: 36vw;
+        height: 150px;
+        margin-left: 27px;
+    }
+
+    .envoyer {
+        margin: 2vh auto;
+        width: 40vw;
+        text-align: center;
+
+    }
+.bloc-2 {
+    width: 75vw;
+}
+.map {
+    width: 100vw;
+}
+}
+
+@media screen and (min-width:1440px) {
+    .bloc-produits {
+        width: 75vw;
+        display: flex;
+        justify-content: center;
+        margin: auto;
+    }
+
+
+}
